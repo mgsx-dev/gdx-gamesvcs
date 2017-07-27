@@ -44,15 +44,15 @@ into your project by just adding the dependencies to your `build.gradle` file.
 Define the version of this API right after the gdxVersion: 
    
     gdxVersion = '1.9.6'
-    gamsvcsVersion = '0.0.1'
+    gamesvcsVersion = '0.0.1'
 
 Core:
 
-    compile "de.golfgl.gdxgamesvcs:gdx-gamesvcs-core:$gamsvcsVersion"
+    compile "de.golfgl.gdxgamesvcs:gdx-gamesvcs-core:$gamesvcsVersion"
     
 For the HTML5 project, you also have to include the sources
 
-    compile "de.golfgl.gdxgamesvcs:gdx-gamesvcs-core:$gamsvcsVersion:sources"
+    compile "de.golfgl.gdxgamesvcs:gdx-gamesvcs-core:$gamesvcsVersion:sources"
 
 and add a line to `GdxDefinition.gwt.xml` and `GdxDefinitionSuperdev.gwt.xml`:
 
